@@ -1,4 +1,7 @@
 # Similar to Search in a rotated sorted array without duplicates
+# Related problems:
+# 33
+# 153
 class Solution:
   def search(self, nums: List[int], target: int) -> bool:
     if not nums:
