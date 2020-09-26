@@ -5,9 +5,9 @@ class Solution:
 	  mid = (l + r) // 2
 	  target = mid * mid
 	  if target == x:
-		return mid
+			return mid
 	  if target > x:
-		r = mid
+			r = mid
 	  else:
-		l = mid
-	  return l if x != 0 else 0
+			l = mid
+	return l if x != 0 else 0
